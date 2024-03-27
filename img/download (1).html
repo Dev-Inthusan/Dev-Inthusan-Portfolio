@@ -1,0 +1,529 @@
+ <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<!-- All code is Copyright 2024  lunapic.com unless otherwise noted. -->
+<html xmlns:fb="http://ogp.me/ns/fb#" dir="ltr" lang="en">
+<head>
+<meta property="fb:app_id" content="194784130542686">
+<script>(function(){/*
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+'use strict';var g=function(a){var b=0;return function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}}},l=this||self,m=/^[\w+/_-]+[=]{0,2}$/,p=null,q=function(){},r=function(a){var b=typeof a;if("object"==b)if(a){if(a instanceof Array)return"array";if(a instanceof Object)return b;var c=Object.prototype.toString.call(a);if("[object Window]"==c)return"object";if("[object Array]"==c||"number"==typeof a.length&&"undefined"!=typeof a.splice&&"undefined"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable("splice"))return"array";
+if("[object Function]"==c||"undefined"!=typeof a.call&&"undefined"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable("call"))return"function"}else return"null";else if("function"==b&&"undefined"==typeof a.call)return"object";return b},u=function(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var v=function(a,b){Object.defineProperty(l,a,{configurable:!1,get:function(){return b},set:q})};var y=function(a,b){this.b=a===w&&b||"";this.a=x},x={},w={};var aa=function(a,b){a.src=b instanceof y&&b.constructor===y&&b.a===x?b.b:"type_error:TrustedResourceUrl";if(null===p)b:{b=l.document;if((b=b.querySelector&&b.querySelector("script[nonce]"))&&(b=b.nonce||b.getAttribute("nonce"))&&m.test(b)){p=b;break b}p=""}b=p;b&&a.setAttribute("nonce",b)};var z=function(){return Math.floor(2147483648*Math.random()).toString(36)+Math.abs(Math.floor(2147483648*Math.random())^+new Date).toString(36)};var A=function(a,b){b=String(b);"application/xhtml+xml"===a.contentType&&(b=b.toLowerCase());return a.createElement(b)},B=function(a){this.a=a||l.document||document};B.prototype.appendChild=function(a,b){a.appendChild(b)};var C=function(a,b,c,d,e,f){try{var k=a.a,h=A(a.a,"SCRIPT");h.async=!0;aa(h,b);k.head.appendChild(h);h.addEventListener("load",function(){e();d&&k.head.removeChild(h)});h.addEventListener("error",function(){0<c?C(a,b,c-1,d,e,f):(d&&k.head.removeChild(h),f())})}catch(n){f()}};var ba=l.atob("aHR0cHM6Ly93d3cuZ3N0YXRpYy5jb20vaW1hZ2VzL2ljb25zL21hdGVyaWFsL3N5c3RlbS8xeC93YXJuaW5nX2FtYmVyXzI0ZHAucG5n"),ca=l.atob("WW91IGFyZSBzZWVpbmcgdGhpcyBtZXNzYWdlIGJlY2F1c2UgYWQgb3Igc2NyaXB0IGJsb2NraW5nIHNvZnR3YXJlIGlzIGludGVyZmVyaW5nIHdpdGggdGhpcyBwYWdlLg=="),da=l.atob("RGlzYWJsZSBhbnkgYWQgb3Igc2NyaXB0IGJsb2NraW5nIHNvZnR3YXJlLCB0aGVuIHJlbG9hZCB0aGlzIHBhZ2Uu"),ea=function(a,b,c){this.b=a;this.f=new B(this.b);this.a=null;this.c=[];this.g=!1;this.i=b;this.h=c},F=function(a){if(a.b.body&&!a.g){var b=
+function(){D(a);l.setTimeout(function(){return E(a,3)},50)};C(a.f,a.i,2,!0,function(){l[a.h]||b()},b);a.g=!0}},D=function(a){for(var b=G(1,5),c=0;c<b;c++){var d=H(a);a.b.body.appendChild(d);a.c.push(d)}b=H(a);b.style.bottom="0";b.style.left="0";b.style.position="fixed";b.style.width=G(100,110).toString()+"%";b.style.zIndex=G(2147483544,2147483644).toString();b.style["background-color"]=I(249,259,242,252,219,229);b.style["box-shadow"]="0 0 12px #888";b.style.color=I(0,10,0,10,0,10);b.style.display=
+"flex";b.style["justify-content"]="center";b.style["font-family"]="Roboto, Arial";c=H(a);c.style.width=G(80,85).toString()+"%";c.style.maxWidth=G(750,775).toString()+"px";c.style.margin="24px";c.style.display="flex";c.style["align-items"]="flex-start";c.style["justify-content"]="center";d=A(a.f.a,"IMG");d.className=z();d.src=ba;d.style.height="24px";d.style.width="24px";d.style["padding-right"]="16px";var e=H(a),f=H(a);f.style["font-weight"]="bold";f.textContent=ca;var k=H(a);k.textContent=da;J(a,
+e,f);J(a,e,k);J(a,c,d);J(a,c,e);J(a,b,c);a.a=b;a.b.body.appendChild(a.a);b=G(1,5);for(c=0;c<b;c++)d=H(a),a.b.body.appendChild(d),a.c.push(d)},J=function(a,b,c){for(var d=G(1,5),e=0;e<d;e++){var f=H(a);b.appendChild(f)}b.appendChild(c);c=G(1,5);for(d=0;d<c;d++)e=H(a),b.appendChild(e)},G=function(a,b){return Math.floor(a+Math.random()*(b-a))},I=function(a,b,c,d,e,f){return"rgb("+G(Math.max(a,0),Math.min(b,255)).toString()+","+G(Math.max(c,0),Math.min(d,255)).toString()+","+G(Math.max(e,0),Math.min(f,
+255)).toString()+")"},H=function(a){a=A(a.f.a,"DIV");a.className=z();return a},E=function(a,b){0>=b||null!=a.a&&0!=a.a.offsetHeight&&0!=a.a.offsetWidth||(fa(a),D(a),l.setTimeout(function(){return E(a,b-1)},50))},fa=function(a){var b=a.c;var c="undefined"!=typeof Symbol&&Symbol.iterator&&b[Symbol.iterator];b=c?c.call(b):{next:g(b)};for(c=b.next();!c.done;c=b.next())(c=c.value)&&c.parentNode&&c.parentNode.removeChild(c);a.c=[];(b=a.a)&&b.parentNode&&b.parentNode.removeChild(b);a.a=null};var ia=function(a,b,c,d,e){var f=ha(c),k=function(n){n.appendChild(f);l.setTimeout(function(){f?(0!==f.offsetHeight&&0!==f.offsetWidth?b():a(),f.parentNode&&f.parentNode.removeChild(f)):a()},d)},h=function(n){document.body?k(document.body):0<n?l.setTimeout(function(){h(n-1)},e):b()};h(3)},ha=function(a){var b=document.createElement("div");b.className=a;b.style.width="1px";b.style.height="1px";b.style.position="absolute";b.style.left="-10000px";b.style.top="-10000px";b.style.zIndex="-10000";return b};var K={},L=null;var M=function(){},N="function"==typeof Uint8Array,O=function(a,b){a.b=null;b||(b=[]);a.j=void 0;a.f=-1;a.a=b;a:{if(b=a.a.length){--b;var c=a.a[b];if(!(null===c||"object"!=typeof c||Array.isArray(c)||N&&c instanceof Uint8Array)){a.g=b-a.f;a.c=c;break a}}a.g=Number.MAX_VALUE}a.i={}},P=[],Q=function(a,b){if(b<a.g){b+=a.f;var c=a.a[b];return c===P?a.a[b]=[]:c}if(a.c)return c=a.c[b],c===P?a.c[b]=[]:c},R=function(a,b,c){a.b||(a.b={});if(!a.b[c]){var d=Q(a,c);d&&(a.b[c]=new b(d))}return a.b[c]};
+M.prototype.h=N?function(){var a=Uint8Array.prototype.toJSON;Uint8Array.prototype.toJSON=function(){var b;void 0===b&&(b=0);if(!L){L={};for(var c="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".split(""),d=["+/=","+/","-_=","-_.","-_"],e=0;5>e;e++){var f=c.concat(d[e].split(""));K[e]=f;for(var k=0;k<f.length;k++){var h=f[k];void 0===L[h]&&(L[h]=k)}}}b=K[b];c=[];for(d=0;d<this.length;d+=3){var n=this[d],t=(e=d+1<this.length)?this[d+1]:0;h=(f=d+2<this.length)?this[d+2]:0;k=n>>2;n=(n&
+3)<<4|t>>4;t=(t&15)<<2|h>>6;h&=63;f||(h=64,e||(t=64));c.push(b[k],b[n],b[t]||"",b[h]||"")}return c.join("")};try{return JSON.stringify(this.a&&this.a,S)}finally{Uint8Array.prototype.toJSON=a}}:function(){return JSON.stringify(this.a&&this.a,S)};var S=function(a,b){return"number"!==typeof b||!isNaN(b)&&Infinity!==b&&-Infinity!==b?b:String(b)};M.prototype.toString=function(){return this.a.toString()};var T=function(a){O(this,a)};u(T,M);var U=function(a){O(this,a)};u(U,M);var ja=function(a,b){this.c=new B(a);var c=R(b,T,5);c=new y(w,Q(c,4)||"");this.b=new ea(a,c,Q(b,4));this.a=b},ka=function(a,b,c,d){b=new T(b?JSON.parse(b):null);b=new y(w,Q(b,4)||"");C(a.c,b,3,!1,c,function(){ia(function(){F(a.b);d(!1)},function(){d(!0)},Q(a.a,2),Q(a.a,3),Q(a.a,1))})};var la=function(a,b){V(a,"internal_api_load_with_sb",function(c,d,e){ka(b,c,d,e)});V(a,"internal_api_sb",function(){F(b.b)})},V=function(a,b,c){a=l.btoa(a+b);v(a,c)},W=function(a,b,c){for(var d=[],e=2;e<arguments.length;++e)d[e-2]=arguments[e];e=l.btoa(a+b);e=l[e];if("function"==r(e))e.apply(null,d);else throw Error("API not exported.");};var X=function(a){O(this,a)};u(X,M);var Y=function(a){this.h=window;this.a=a;this.b=Q(this.a,1);this.f=R(this.a,T,2);this.g=R(this.a,U,3);this.c=!1};Y.prototype.start=function(){ma();var a=new ja(this.h.document,this.g);la(this.b,a);na(this)};
+var ma=function(){var a=function(){if(!l.frames.googlefcPresent)if(document.body){var b=document.createElement("iframe");b.style.display="none";b.style.width="0px";b.style.height="0px";b.style.border="none";b.style.zIndex="-1000";b.style.left="-1000px";b.style.top="-1000px";b.name="googlefcPresent";document.body.appendChild(b)}else l.setTimeout(a,5)};a()},na=function(a){var b=Date.now();W(a.b,"internal_api_load_with_sb",a.f.h(),function(){var c;var d=a.b,e=l[l.btoa(d+"loader_js")];if(e){e=l.atob(e);
+e=parseInt(e,10);d=l.btoa(d+"loader_js").split(".");var f=l;d[0]in f||"undefined"==typeof f.execScript||f.execScript("var "+d[0]);for(;d.length&&(c=d.shift());)d.length?f[c]&&f[c]!==Object.prototype[c]?f=f[c]:f=f[c]={}:f[c]=null;c=Math.abs(b-e);c=1728E5>c?0:c}else c=-1;0!=c&&(W(a.b,"internal_api_sb"),Z(a,Q(a.a,6)))},function(c){Z(a,c?Q(a.a,4):Q(a.a,5))})},Z=function(a,b){a.c||(a.c=!0,a=new l.XMLHttpRequest,a.open("GET",b,!0),a.send())};(function(a,b){l[a]=function(c){for(var d=[],e=0;e<arguments.length;++e)d[e-0]=arguments[e];l[a]=q;b.apply(null,d)}})("__d3lUW8vwsKlB__",function(a){"function"==typeof window.atob&&(a=window.atob(a),a=new X(a?JSON.parse(a):null),(new Y(a)).start())});}).call(this);
+
+window.__d3lUW8vwsKlB__("WyIzZDlhNWQ0NTY4Nzg4NmRkIixbbnVsbCxudWxsLG51bGwsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2YvQUdTS1d4WFhsYXNhNHZmNkpNQ0FrTW9ocjJpT01lU09vb0NEcllDN1V1VWVBTWRYelN1T1ppdUpGUkNpbXphZnhpUEloLXdkZnJ4RzdtaUcxMVNyMGRMeE82d1x1MDAzZCJdCixbMjAsImRpdi1ncHQtYWQiLDEwMCwiTTJRNVlUVmtORFUyT0RjNE9EWmtaQVx1MDAzZFx1MDAzZCIsW251bGwsbnVsbCxudWxsLCJodHRwczovL3d3dy5nc3RhdGljLmNvbS8wZW1uL2YvcC8zZDlhNWQ0NTY4Nzg4NmRkLmpzP3VzcXBcdTAwM2RDQTgiXQpdCiwiaHR0cHM6Ly9mdW5kaW5nY2hvaWNlc21lc3NhZ2VzLmdvb2dsZS5jb20vbC9BR1NLV3hXNDZqVnBkV0I1ZEo3Q1pNc0FvWkVuT2lWMGk3YXY5UDZ6Z2JsTmJaYlU1V2trZTE3UUZVRy1pQ1dOS1phU2wzdkhwLVpDYzUxazVOUl83UE44P2FiXHUwMDNkMSIsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2wvQUdTS1d4VVB2SzlCbGxnY3R1UnNrbkV6T3VyNDFvaEZWU1kxSDlUXzJDUmZaVFBTMjlMRHpHRzk2NHRaSldSOFRmcjN6RXotdWwyVmtsSHVURmNtN0xVbD9hYlx1MDAzZDJcdTAwMjZzYmZcdTAwM2QxIiwiaHR0cHM6Ly9mdW5kaW5nY2hvaWNlc21lc3NhZ2VzLmdvb2dsZS5jb20vbC9BR1NLV3hYbmZMUGdLdEZnbGZ1Q2QwTm5YYXV4N3ZpYURTcVZwNi0tTktRTUxLUXFLaHFMX1BDM2NyVzBId09sX0J4YWZPZnBmcVZOTTdoTHMzOXhELXdtP3NiZlx1MDAzZDIiXQo=");</script>
+<link rel=canonical href="https://www.lunapic.com/editor/?action=quick-upload">
+<meta name="viewport" content="width=1095, minimal-ui"><meta property="og:title" content="LunaPic.com Photo Editor  Open tool " />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="Free and Easy to use online image effects. Try the  Open effect." />
+<meta property="og:url" content="https://www.lunapic.com/editor/?action=quick-upload" />
+
+<meta property='twitter:site' content='@lunapiccom'>
+<meta name="robots" content="max-image-preview:large">
+<meta property="og:site_name" content="Lunapic" />
+<meta property="fb:admins" content="3805199" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/editor/images/unified.css" type="text/css">
+
+<script>
+document.addEventListener("keydown", function(e) { 
+if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) { e.preventDefault(); window.location = "saveas.php?3"; }
+if (e.keyCode == 88 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) { e.preventDefault(); window.location = "?action=close"; }
+if (e.keyCode == 79 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) { e.preventDefault(); window.location = "?action=quick-upload"; }
+ }, false);
+</script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+
+
+
+
+<meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<META name="description" content=" Open Edit, adjust & create stunning photos with LunaPic, the free online photo editor. No signup, login or installation needed.  Try it now!">
+<META name="keywords" content=" Open, images, adjust, crop, photo editing, photo editor, transparent, background remover  Luna Pic.  Free Online Photo Editor quick-upload">
+<title>LunaPic | Free Online Photo Editor |  Open</title>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BLJQXEKL0Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-BLJQXEKL0Q');
+</script>
+</head>
+
+<body  bgcolor='#d3d9df'  >
+<div id="wrapper">
+<a name="top"></a>
+<table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr><td align=center><table width="100%" cellspacing="0" cellpadding="0" border="0"  bgcolor='#989898'><tr><td><a href="/editor/" title="LunaPic Photo Editor tumbler profile picture"><img src="images/lunapic-bw.png" vspace=7 hspace=7 width=327 height=76 alt="LunaPic Photo Editor" border="0"></a>
+<TD>
+</table>
+</table>
+
+<script  type="text/javascript" xrc="/editor/chromejs/c.js">
+var cssdropdown={disappeardelay:300,disablemenuclick:false,enableswipe:0,enableiframeshim:1,dropmenuobj:null,ie:document.all,firefox:document.getElementById&&!document.all,swipetimer:undefined,bottomclip:0,getposOffset:function(e,t){var n=t=="left"?e.offsetLeft:e.offsetTop;var r=e.offsetParent;while(r!=null){n=t=="left"?n+r.offsetLeft:n+r.offsetTop;r=r.offsetParent}return n},swipeeffect:function(){if(this.bottomclip<parseInt(this.dropmenuobj.offsetHeight)){this.bottomclip+=10+this.bottomclip/10;this.dropmenuobj.style.clip="rect(0 auto "+this.bottomclip+"px 0)"}else return;this.swipetimer=setTimeout("cssdropdown.swipeeffect()",10)},showhide:function(e,t){if(this.ie||this.firefox)this.dropmenuobj.style.left=this.dropmenuobj.style.top="-500px";if(t.type=="click"&&e.visibility==hidden||t.type=="mouseover"){if(this.enableswipe==1){if(typeof this.swipetimer!="undefined")clearTimeout(this.swipetimer);e.clip="rect(0 auto 0 0)";this.bottomclip=0;this.swipeeffect()}e.visibility="visible"}else if(t.type=="click")e.visibility="hidden"},iecompattest:function(){return document.compatMode&&document.compatMode!="BackCompat"?document.documentElement:document.body},clearbrowseredge:function(e,t){var n=0;if(t=="rightedge"){var r=this.ie&&!window.opera?this.iecompattest().scrollLeft+this.iecompattest().clientWidth-15:window.pageXOffset+window.innerWidth-15;this.dropmenuobj.contentmeasure=this.dropmenuobj.offsetWidth;if(r-this.dropmenuobj.x<this.dropmenuobj.contentmeasure)n=this.dropmenuobj.contentmeasure-e.offsetWidth}else{var i=this.ie&&!window.opera?this.iecompattest().scrollTop:window.pageYOffset;var r=this.ie&&!window.opera?this.iecompattest().scrollTop+this.iecompattest().clientHeight-15:window.pageYOffset+window.innerHeight-18;this.dropmenuobj.contentmeasure=this.dropmenuobj.offsetHeight;if(r-this.dropmenuobj.y<this.dropmenuobj.contentmeasure){n=this.dropmenuobj.contentmeasure+e.offsetHeight;if(this.dropmenuobj.y-i<this.dropmenuobj.contentmeasure)n=this.dropmenuobj.y+e.offsetHeight-i}}return n},dropit:function(e,t,n){if(this.dropmenuobj!=null)this.dropmenuobj.style.visibility="hidden";this.clearhidemenu();if(this.ie||this.firefox){e.onmouseout=function(){cssdropdown.delayhidemenu()};e.onclick=function(){return!cssdropdown.disablemenuclick};this.dropmenuobj=document.getElementById(n);this.dropmenuobj.onmouseover=function(){cssdropdown.clearhidemenu()};this.dropmenuobj.onmouseout=function(e){cssdropdown.dynamichide(e)};this.dropmenuobj.onclick=function(){cssdropdown.delayhidemenu()};this.showhide(this.dropmenuobj.style,t);this.dropmenuobj.x=this.getposOffset(e,"left");this.dropmenuobj.y=this.getposOffset(e,"top");this.dropmenuobj.style.left=this.dropmenuobj.x-this.clearbrowseredge(e,"rightedge")+"px";this.dropmenuobj.style.top=this.dropmenuobj.y-this.clearbrowseredge(e,"bottomedge")+e.offsetHeight+1+"px";this.positionshim()}},positionshim:function(){if(this.enableiframeshim&&typeof this.shimobject!="undefined"){if(this.dropmenuobj.style.visibility=="visible"){this.shimobject.style.width=this.dropmenuobj.offsetWidth+"px";this.shimobject.style.height=this.dropmenuobj.offsetHeight+"px";this.shimobject.style.left=this.dropmenuobj.style.left;this.shimobject.style.top=this.dropmenuobj.style.top}this.shimobject.style.display=this.dropmenuobj.style.visibility=="visible"?"block":"none"}},hideshim:function(){if(this.enableiframeshim&&typeof this.shimobject!="undefined")this.shimobject.style.display="none"},contains_firefox:function(e,t){while(t.parentNode)if((t=t.parentNode)==e)return true;return false},dynamichide:function(e){var t=window.event?window.event:e;if(this.ie&&!this.dropmenuobj.contains(t.toElement))this.delayhidemenu();else if(this.firefox&&e.currentTarget!=t.relatedTarget&&!this.contains_firefox(t.currentTarget,t.relatedTarget))this.delayhidemenu()},delayhidemenu:function(){this.delayhide=setTimeout("cssdropdown.dropmenuobj.style.visibility='hidden'; cssdropdown.hideshim()",this.disappeardelay)},clearhidemenu:function(){if(this.delayhide!="undefined")clearTimeout(this.delayhide)},startchrome:function(){for(var e=0;e<arguments.length;e++){var t=document.getElementById(arguments[e]).getElementsByTagName("a");for(var n=0;n<t.length;n++){if(t[n].getAttribute("rel")){var r=t[n].getAttribute("rel");t[n].onmouseover=function(e){var t=typeof e!="undefined"?e:window.event;cssdropdown.dropit(this,t,this.getAttribute("rel"))}}}}if(window.createPopup&&!window.XmlHttpRequest){document.write('<IFRAME id="iframeshim"  src="" style="display: none; left: 0; top: 0; z-index: 90; position: absolute; filter: progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=0)" frameBorder="0" scrolling="no"></IFRAME>');this.shimobject=document.getElementById("iframeshim")}}}
+/***********************************************
+* Chrome CSS Drop Down Menu- © Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+</script>
+<div class="chromestyle" id="chromemenu">
+<ul>
+<li><a href="/editor/?action=quick-upload">Upload</a></li>
+<li><a rel="filemenu" href="#">File</a></li>
+<li><a rel="editmenu" href="#">Edit</a></li>
+<li><a rel="photomenu" href="#">Adjust</a></li>
+<li><a rel="drawmenu" href="#">Draw</a></li>
+<li><a rel="bordermenu" href="#">Borders</a></li>
+<li><a rel="filtermenu" href="#">Filters</a></li>
+<li><a rel="effectsmenu" href="#">Effects</a></li>
+<li><a rel="artmenu" href="#">Art</a></li>
+<li><a rel="animationmenu" href="#">Animation</a></li>
+<li><a rel="helpmenu" href="#">Help</a></li>
+</li>
+</ul>
+</div>
+<div id="filemenu" class="dropmenudiv">
+<a href=?action=save>Save Image (Ctrl+S) </a>
+<a href=?action=close>Close Image (Ctrl+X)</a>
+<a href=?action=quick-upload>Upload Image (Ctrl+O)</a>
+<a href=?action=moreupload>Upload Multiple Images</a>
+<a href=?action=url>Open from URL</a>
+<a href=?action=info>Image Size Info</a>
+<a href=?action=histogram>Color Histogram</a>
+<a href=?action=color-palette>Color Palette</a>
+<a href=?action=image2qrcode>QRCode Generator</a>
+<a href=?action=qrcode-reader>QRCode Reader</a>
+<a href=?action=error-level-analysis>Doctored photo detector</a>
+<a href=?action=blank rel=nofollow>New Blank Image</a>
+<A href=?action=stock>Find Stock Photos</a>
+<A href=?action=dropbox>Open from DropBox</a>
+<A href=?action=imgur-account>Open from Imgur</a>
+<A rel=nofollow href=?action=gphotos>Open from Google Photos</a>
+<a href=?action=sample>Sample Image</a>
+<a href=?action=print>Print Image</a>
+<a href=?action=convert>Convert File Format</a>
+<a href=?action=add>Add Animation</a>
+<A target=_blank href=http://www.zazzle.com/api/create/at-238898482285725805?rf=238898482285725805&ax=DesignBlast&sr=250268557400230878&cg=0&t__useQpc=true&ed=true&br=true&ds=true&t__smart=false&continueUrl=http%3A%2F%2Fwww.zazzle.com%2Flunapic_gifts&fwd=ProductPage&tc=&ic=&t_coverimage_iid=http%3A%2F%2Fwww3.lunapic.com%2Feditor%2Fworking%2F171141550924390496%3F98143640466rel=nofollow>Get Prints at Zazzle</a>
+<a rel=nofollow href=?action=pinterest-share>Pin it on Pinterest</a>
+<a rel=nofollow href=?action=facebook-share>Post on FaceBook</a>
+<a href=?action=imgur rel=nofollow>Host at Imgur</a>
+</div>
+<div id="editmenu" class="dropmenudiv">
+<a href=?action=recover>Undo Last Action </a>
+<a href=?action=undo-history>Undo History List</a>
+<a href=?action=copy-clip>Copy to Clipboard</a>
+<a href=?action=paste>Paste from Clipboard</a>
+<a href=?action=load-clip&postupload=paste>Paste from ...</a>
+<a href=?action=swap-clip>Swap with Clipboard</a>
+<a href=?action=show-clip>Show Clipboard</a>
+<a href=?action=mask>Layers Mask</a>
+<a href=?action=crop>Crop Image</a>
+<a href=?action=quick-crop>Simple Crop Tool</a>
+<a href=?action=crop&tool=wand>Magic Wand</a>
+<a href=?action=skew>Skew Image</a>
+<a href=?action=smart-crop>AutoCrop Image</a>
+<a href=?action=resize>Resize Image</a>
+<a href=?action=scale>Scale Image</a>
+<a href=?action=super-resolution>2x Super Resolution</a>
+<a href=?action=canvas>Resize Canvas</a>
+<a href=?action=rotate>Rotate Image</a>
+<a href=?action=eraser>Eraser Tool</a>
+<a href=?action=object-removal>Smart Object Removal (New!)</a>
+<a href=?action=background-removal>Auto Background Removal (New!)</a>
+<a href=?action=blur-background>Auto Blur Background (New!)</a>
+<a href=?action=pixelate-background>Auto Pixelate Background (New!)</a>
+<a href=?action=transparent>Transparent Background</a>
+
+</div>
+<div id="drawmenu" class="dropmenudiv">
+<a href=?action=painter-new>Paint Tool (New)</a>
+<a href=?action=draw>Drawing Tool</a>
+<a href=?action=tracing-paper>Tracing Tool</a>
+<a href=?action=text>Text Tool</a>
+<a href=?action=background>Background Tool</a>
+<a href=?action=watermark>Watermark Tool</a>
+<a href=?action=caption>Simple Caption Tool</a>
+<a href=?action=motive>Motivational Poster</a>
+<a href=?action=paint-bucket>Paint Bucket Tool</a>
+<a href=?action=color-picker>Color Picker</a>
+<A href=?action=silhouette>Silhouette Maker</a>
+<A href=?action=cosmetic-surgery>Cosmetic Surgery</a>
+<A href=?action=zit-remover>Blemish Remover</a>
+<A href=?action=smudge>Smudge Tool</a>
+<A href=?action=dialogs>Speech Bubbles</a>
+<A href=?action=glass-tile>Glass Tile</a>
+<A href=?action=stained-glass>Stained Glass</a>
+<a href=?action=cutout>Cutout Shape</a>
+<a href=?action=censored>Censored Box</A>
+<a href=?action=tiny-world>Tiny World</a>
+<a href=?action=clipart>Clipart</a>
+<a href=?action=face-blur>Blur a Face</a>
+<a href=?action=inspire-poster>Inspirational Posters</a>
+<a href=?action=flag-generator>Flag Maker</a>
+<A href=?action=card>Holiday Cards</a>
+
+</div> <div id="bordermenu" class="dropmenudiv">
+<a href=?action=border>Border Tool</a>
+<a href=?action=sticker-border>Sticker Border</a>
+<a href=?action=drop-shadow>DropShadow</a>
+<a href=?action=rounded-border>Rounded Border</a>
+<a href=?action=pick-tint>Color Tint Border</a>
+<a href=?action=blur-border>Blurred Border</a>
+<a href=?action=virtual-border>Virtual Extending Border (New!)</a>
+<a href=?action=edge-fade>Edge Fade Border</a>
+<a href=?action=picture-frame>Picture Frame</a>
+<a href=?action=custom-frame>Custom Frame</a>
+<a href=?action=cellphone-picture>Cellphone Picture</a>
+<a href=?action=film-strip>Film Strip</a>
+<a href=?action=polaroid>Polaroid</a>
+<a href=?action=taped-photo>Taped Photo</a>
+<a href=?action=vignette>Vignette</a>
+<a href=?action=raise>Beveled Edge</a>
+<A href=?action=glassify>Glass Button</a>
+<a href=?action=dollar-bill>Dollar Bill</a>
+<a href=?action=snowflake-border>Snow Flake Border</a>
+<a href=?action=christmas-bulb>Christmas Bulb</a>
+
+</div> <div id="filtermenu" class="dropmenudiv">
+<a href=?action=effect-bw>Black and White</a>
+<a href=?action=sepia>Sepiatone</a>
+<a href=?action=instant-filters>Lomo & More </a>
+<a href=?action=flag>Country Flags</a>
+<a href=?action=rainbow>Rainbow</a>
+<a href=?action=negative>Negative</a>
+<a href=?action=monochrome>MonoChrome</a>
+<a href=?action=neon>Neon</a>
+<a href=?action=retro>Retro Vintage</a>
+<a href=?action=night-vision>Night Vision</a>
+<a href=?action=twotone>Two Tone Color</a>
+<a href=?action=gradient>Color Gradient</a>
+<a href=?action=tint>Color Tint</a>
+<a href=?action=harsh>Harsh Lighting</a>
+<a href=?action=hdr>HDR Lighting</a>
+<a href=?action=retro&color=soft>Soft Lighting</a>
+<a href=?action=equalize>Equalize</a>
+<a href=?action=median>Median</a>
+<a href=?action=flames>Fire</a>
+<a href=?action=lightning>Lightning</a>
+<a href=?action=water>Water</a>
+<a href=?action=thermal>Thermal Iridescence Effect</a>
+<a href=?action=ginger>Ginger Effect</a>
+<a href=?action=heatmap>Heatmap Effect</a>
+<a href=?action=lensflare>Lens Flare</a>
+<a href=?action=effect-emboss>Emboss</a>
+<a href=?action=effect-charcoal>Charcoal</a>
+<a href=?action=line-effect>Lines</a>
+<a href=?action=texture>More Textured Filters</A>
+
+</div> <div id="photomenu" class="dropmenudiv">
+<a href=?action=newbright>Adjust Light Levels</a>
+<a href=?action=rgb>Adjust Colors</a>
+<a href=?action=saturate>Color Saturation</a>
+<a href=?action=blur-sharp>Adjust Focus</a>
+<a href=?action=dehaze>DeHaze</a>
+<a href=?action=pixels>Pixelate</a>
+<a href=?action=changecolor>Change Color Tint</a>
+<a href=?action=replace-color>Replace Color</a>
+<a href=?action=onecolor>Color Spotting</a>
+<a href=?action=color-square>Color Box</a>
+<a href=?action=mirror>Mirror</a>
+<a href=?action=mirror-copy>Mirror and Copy</a>
+<a href=?action=flip>Flip</a>
+<a href=?action=blur>Blur</a>
+<a href=?action=motion-blur>Motion Blur</a>
+<a href=?action=sharpen>Sharpen</a>
+<a href=?action=straighten>Straighten</a>
+<a href=?action=perspective>Perspective</a>
+<a href=?action=shade>Brightness</a>
+<a href=?action=alpha-transparency>Alpha Transparency</a>
+<a href=?action=auto-bright>Auto Brightness</a>
+<a href=?action=temperature>Color Temperature</a>
+<a href=?action=contrast>Contrast</a>
+<a href=?action=exposure>Exposure</a>
+<a href=?action=adaptive-equalize>Adaptive Equalize</a>
+<a href=?action=skin-smoother>Skin Smoother</a>
+<a href=?action=tan>Skin Tanning </a>
+<a href=?action=normalize>Normalize</a>
+<a href=?action=redeye>Redeye Reduction</a>
+<a href=?action=colorize-old-photo>Colorize Old Photo</a>
+<a href=?action=restore>Photo Restore</a>
+</div>
+<div id="effectsmenu" class="dropmenudiv">
+<a href=?action=effect-examples>View All Effects</a>
+<a href=?action=paste>Blend two Images</a>
+<a href=?action=blend>Gradient Blend</a>
+<a href=?action=mask>Masking Blend</a>
+<a href=?action=photo-spread>Photo Spread</a>
+<A href=?action=easter>Easter Effects</a>
+<a href=?action=color-bars>Color Bars</a>
+<a href=?action=color-glitch>Color Glitch</a>
+<a href=?action=kaleidoscope>Kaleidoscope
+<a href=?action=warhol>Warhol Effect x 9</a>
+<a href=?action=tilt-shift>Tilt Shift</a>
+<a href=?action=create-anim&collage=selected>Custom Collage</a>
+<a href=?action=go-obama>Obama Style Poster</a>
+<a href=?action=cube>3D Cube</a>
+<a href=?action=photo-booth>Photo Booth</a>
+<a href=?action=legoz>Lego Style</a>
+<a href=?action=lomo-collage>Lomography Collage</a>
+<a href=?action=effect-line>Abstract Outlines</a>
+<a href=?action=implode>Implode</a>
+<a href=?action=explode>Explode</a>
+<a href=?action=ink-portrait>Ink Portrait</a>
+<a href=?action=engrave>Engraving</a>
+<a href=?action=sketch>Pencil Sketch</a>
+<a href=?action=color-sketch>Color Pencil Sketch</a>
+<a href=?action=surreal>Surreal Painting</a>
+<a href=?action=effect-paint>Painted</a>
+<a href=?action=glitch>Glitched</a>
+<a href=?action=dream-fx>Dream FX</a>
+<a href=?action=cartoon>Cartoon</a>
+<a href=?action=colorbook>Coloring Book</a>
+<a href=?action=swirl>Swirl</a>
+<a href=?action=newsprint>Comic Book Style</a>
+<a href=?action=needlepoint>NeedlePoint</a>
+
+</div>
+<div id="artmenu" class="dropmenudiv">
+<a href=?action=art>Famous Art Works</a>
+<a href=?action=newart>Newest Art Effects</a>
+<a href=?action=artist-collage>Artist Collage (New!)</a>
+<a href=?action=all-examples>Example Art</a>
+<A href=?action=sketch2>Sketch2</a>
+<A href=?action=scribble>Scribble</a>
+<A href=?action=pen>Pen</a>
+<A href=?action=escher>Escher</a>
+<A href=?action=fairy>Fairy</a>
+<A href=?action=beauty>Beauty</a>
+<A href=?action=picasso>Picasso</a>
+<A href=?action=dreaming>Dreaming</a>
+<A href=?action=illusion>Illusion</a>
+<A href=?action=floating>Floating</a>
+<A href=?action=smoke>Smoke</a>
+<A href=?action=sadness>Sadness</a>
+<A href=?action=tattoo>Tattoo</a>
+<A href=?action=graffiti>Graffiti</a>
+<A href=?action=watercolor>Watercolor</a>
+<A href=?action=fantasy>Fantasy</a>
+<A href=?action=kandinsky>Kandinsky</a>
+<A href=?action=vangogh>Vangogh</a>
+<A href=?action=space>Space</a>
+<A href=?action=abstract>Abstract</a>
+<A href=?action=landscape>Landscape</a>
+<A href=?action=night>Night</a>
+<A href=?action=candy>Candy</a>
+<A href=?action=edtaonisl>Edtaonisl</a>
+<A href=?action=paper>Paper Folding</a>
+<A href=?action=dark>Dark</a>
+<A href=?action=splash>Splash</a>
+<A href=?action=flame>Flames</a>
+<A href=?action=grey>Grey</a>
+<a href=?action=art-custom>Use Your own Style</a>
+
+</div>
+<div id="animationmenu" class="dropmenudiv">
+<a href=?action=animation-settings>Edit Gif Animation</a>
+<a href=?action=crop-video>Video Editing</a>
+<a href=?action=dissolve>Dissolve Animation Frames</a>
+<a href=?action=transitions>Transitions</a>
+<a href=?action=sunburst>Sunburst</a>
+<a href=?action=polaroid-pile>Anim - Polaroid Pile</a>
+<a href=?action=reflection>Reflecting Water</a>
+<a href=?action=droplets>Water Droplets</a>
+<a href=?action=snow>Snowfall</a>
+<a href=?action=old-movie>Old Movie Effect
+</a><a href=?action=cubeanim>Rotating Cube
+</a><a href=?action=groovy>Groovy Rainbow 
+</a><a href=?action=groovy-color>Groovy Color
+</a><a href=?action=kal-anim>Kaleidoscoper
+</a><a href=?action=sparkles>Sparkles Effect
+</a><a href=?action=rain>Pouring Rain 
+</a><a href=?action=blooddrops>Blood Rain 
+</a><a href=?action=clouds>Smoke Clouds
+</a><a href=?action=scary>Scary / Horror
+</a><a href=?action=blur-anim>Jittery Blur
+</a><a href=?action=focus-anim>In Focus
+</a><a href=?action=cosmetic-surgery&animate=checked>Inflate/Deflate Parts
+</a><a href=?action=hearts>Floating Hearts 
+</a><a href=?action=animated-flames>Fire Animation
+</a><a href=?action=animate-zoom>Zoom Animation
+</a><a href=?action=create-anim&colorcheck=checked>Color Cycle Animation
+</a><a href=?action=create-anim>Custom Animation Effects
+</a><a href=?action=mirror-dance>Mirror Dance</a>
+</a><a href=?action=club-lights>Club Lights</a>
+</a><a href=?action=glitter>Glitterize </a>
+<a href=?action=animation-examples>... View All Animations</a>
+</div>
+<div id="helpmenu" class="dropmenudiv">
+<A href=https://www.lunapic.com/support/>FAQs & Support</a>
+<A href=?action=search2>Site Search</a>
+<A href=?action=feedback>Contact Us</a>
+<A href=?action=privacy>Privacy Policy</a>
+<A href=?action=api>Developer API</a>
+<A href=?action=paid-edits>Hire a Designer</a>
+<A href=?action=dont-want>Ad Trouble</a>
+<a href=?action=reviews>Positive Reviews</a>
+<A href=?action=set-mobile>Mobile Site</a>
+<a href=?colormode=1&setcolormode=1>Blue Theme</a><BR>Reference: 
+
+<A href=?action=photo-tips>Photo Tips</a>
+<A href=?action=color>Color Names</a>
+<A href=?action=font>Font Names</a>
+<A href=?action=prisma>Prisma Styles</a>
+<A href=?action=effect-examples>Examples</a>
+<BR>Tutorials:
+<a href=?action=tutorial&va=Text+Tool&ya=sUKLWYGOAzo>Animated Text</a>
+<a href=?action=face-swapping>Swapping Faces</a>
+<A href=?action=change-eye-color>Change Eye Color</a>
+<A href=?action=wink-tutorial>Animated Wink</a>
+<a href=?action=animated-images-facebook>Post Animations on Facebook</a>
+<a href=?action=replace-sky-with-sunset>Replace Sky with Sunset</a>
+<a href=?action=tutorial&va=Remove+Objects&ya=vnZJgJWgnV0>Remove Objects</a>
+<a href=?action=text>Rotated Text</a>
+<a href=https://support.lunapic.com/photo/tutorials/transparent-background/>Change Background</a>
+</div>
+<script type="text/javascript">
+cssdropdown.startchrome("chromemenu")
+</script>
+<div id="leftside">
+<map name="tools">
+<area shape=rect coords="0,0,34,27" href="?action=crop" title="Crop Image">
+<area shape=rect coords="0,27,34,60" href="?action=text" title="Text tool">
+<area shape=rect coords="0,60,34,84" href="?action=crop&tool=fillpolygon" title="Cut Out tool">
+<area shape=rect coords="0,84,34,112" href="?action=painter-new" title="Drawing Tool">
+<area shape=rect coords="0,112,34,141" href="?action=zoom&dozoom=in" title="Zoom In">
+<area shape=rect coords="0,141,34,173" href="?action=rotate" title="Rotate">
+<area shape=rect coords="0,173,34,200" href="?action=gradient" title="Add Gradient">
+<area shape=rect coords="0,200,34,230" href="?action=paint-bucket" title="Paint Bucket">
+<area shape=rect coords="0,230,33,260" href="?action=color-picker" title="Eye Drop Color Picker">
+<area shape=rect coords="0,260,34,295" href="?action=draw" title="Painting Tool">
+<area shape=rect coords="0,295,34,330" href="?action=scale" title="Scale Image">
+<area shape=rect coords="0,330,33,360" href="?action=eraser" title="Eraser">
+<area shape=rect coords="0,360,34,390" href="?action=quick-upload" title="Open an Image">
+<area shape=rect coords="0,390,34,420" href="?action=save" title="Save Image">
+<area shape=rect coords="0,420,33,450" href="?action=close" title="Close Image">
+<area shape=rect coords="0,450,34,480" href="?action=blank" title="New Blank Image">
+<area shape=rect coords="0,480,34,510" href="?action=print" title="Print Image">
+<area shape=rect coords="0,510,34,540" href="?action=show-clip" title="View Clipboard">
+<area shape=rect coords="0,540,34,570" href="?action=copy-clip" title="Copy Image to Clipboard">
+<area shape=rect coords="0,570,33,600" href="?action=draw&tool=line" title="Draw Line">
+<area shape=rect coords="0,600,33,630" href="?action=draw&tool=rect" title="Draw Square">
+<area shape=rect coords="0,630,33,655" href="?action=draw&tool=ellipse" title="Draw Circle">
+<area shape=rect coords="0,655,34,685" href="?action=recover" title="Undo Last Action">
+<area shape=rect coords="0,685,34,710" href="https://lunapic.com/support/" title="Help">
+</map> 
+<img src=images/slim-tools2.gif width=34 height=712 hspace=5 vpsace=2 border=0 usemap="images/tools.map#tools">
+</div>
+    
+
+<div  style="overflow:auto">
+<div id=actionbox  style="min-height:400;" >
+<nav><div itemscope itemtype="http://data-vocabulary.org/Breadcrumb">&nbsp; &nbsp; <a itemprop=url href=?action=quick-upload><span itemprop=title><a itemprop=url href=/editor/><span itemprop=title>LunaPic</span></a> > <a itemprop=url href=?action=file-menu><span itemprop=title>File</span></a> > Open</span></a> 
+</div></nav><center>
+<form action=https://www3.lunapic.com/editor/ method=post   enctype="multipart/form-data" name=sig >
+<input type=hidden name=savenav value="<a itemprop=url href=/editor/><span itemprop=title>LunaPic</span></a> > <a itemprop=url href=?action=file-menu><span itemprop=title>File</span></a> > Open">
+
+
+<BR>
+
+<script>
+window.addEventListener('paste', e => {
+document.getElementById("upload-image").files = e.clipboardData.files;
+document.forms['sig'].submitb.disabled=false; 
+});
+</script>
+<table cellpadding=15><TR><TD align=center>
+<h1>Quick Upload</h1>
+<BR>
+<BR>
+<B>Select an Image for LunaPic Editing </b><BR>
+<input type=hidden name="MAX_FILE_SIZE" value="50000000">
+<input type=hidden name=action value=upload-now>
+<input type=hidden name=canvassize value=1200>
+<BR><BR>
+<input type=file name=upload-image id=upload-image   accept='video/*,image/*,.gif,.jpg,.avif,.jpeg,.png,.tiff,.ico,.webp,.bmp' onChange="if(this.files[0].size < 50000000){document.forms['sig'].submitb.disabled=false;document.forms['sig'].submitb.value='Uploading... Please Wait';setTimeout(document.forms['sig'].submit(),100);document.forms['sig'].submitb.disabled=true;return 0;}else{document.getElementById('message').innerHTML = '<B><font color=red>Your file must under 50 Mb</font></b><BR>';}">
+<input type=submit value="Upload" id=submitb name=submitb onClick="document.sig.submitb.value='Uploading... Please Wait';document.sig.submitb.disabled=true;document.sig.submit();return false;" disabled>
+<BR>
+</form>
+
+
+<BR>
+<div id=message></div>
+<BR>
+<script>
+function getWidth () {
+if (parseInt(navigator.appVersion)>3) {
+ if (navigator.appName=="Netscape") { return window.innerWidth; }
+ if (navigator.appName.indexOf("Microsoft")!=-1) { return document.body.offsetWidth; }
+}
+ return 500;
+}
+
+var winW = getWidth();
+document.cookie = "winw="+ winW +"; path=/; domain=lunapic.com";
+winW = winW - 220 ;
+if (winW < 500) {
+alwaysLowered = false;
+winW = getWidth();
+winW = winW - 220 - winW % 10;
+if (winW < 500) { winW = 500 }
+}
+document.forms["sig"].canvassize.value=winW;
+
+
+
+</script>
+
+
+
+<a href=?action=moreupload>More Options</a>
+<td>
+</table>
+<BR>
+
+</div>
+</div>
+</div>
+
+<center>
+<script> function saveCheck(clickname) { 
+ document.getElementById("saveops").innerHTML = 'Click "'+clickname+'" above to save changes, or <A href=?action=info>clear changes</a>';
+}</script>
+<div id=saveops>
+ 
+<a href="newsave.php" download rel=nofollow>Save</a>
+ or Share on
+ <A rel="nofollow" target=_NEW href=?action=facebook-share>FaceBook</a> 
+| <A rel="nofollow" href=?action=imgur>Imgur</a>  
+| <A rel="nofollow" target=_NEW href=?action=pinterest-share>Pinterest</a>
+| <A rel="nofollow" target=_NEW href=?action=twitter-share>X / Twitter</a> 
+| <A rel="nofollow" href=?action=gphoto-save>Google Photos</a> |
+<A href=?action=save>More Options</a>
+</div>
+</span>
+</font>
+<BR>
+
+<table cellpadding=5><TR><TD align=center>Undo<BR>History<BR>  [ <A href=?action=hide-history>hide</a> ]<TD>  
+<A href=?action=recover&backupid=12><img src=working/171141550924390496-bt-12?4 border=0 width=50 height=50 valign=bottom></a> <A href=?action=recover&backupid=11><img src=working/171141550924390496-bt-11?4 border=0 width=50 height=50 valign=bottom></a> <A href=?action=recover&backupid=10><img src=working/171141550924390496-bt-10?4 border=0 width=50 height=50 valign=bottom></a> <A href=?action=recover&backupid=9><img src=working/171141550924390496-bt-9?4 border=0 width=50 height=50 valign=bottom></a> <A href=?action=recover&backupid=8><img src=working/171141550924390496-bt-8?4 border=0 width=50 height=50 valign=bottom></a> <A href=?action=recover&backupid=7><img src=working/171141550924390496-bt-7?4 border=0 width=50 height=50 valign=bottom></a> <A href=?action=recover&backupid=6><img src=working/171141550924390496-bt-6?4 border=0 width=50 height=50 valign=bottom></a> <A href=?action=recover&backupid=5><img src=working/171141550924390496-bt-5?4 border=0 width=50 height=50 valign=bottom></a> <A href=?action=recover&backupid=4><img src=working/171141550924390496-bt-4?4 border=0 width=50 height=50 valign=bottom></a> <A href=?action=recover&backupid=3><img src=working/171141550924390496-bt-3?4 border=0 width=50 height=50 valign=bottom></a>  <TD> <A href=?action=undo-history> more <BR> history</a>  </table>
+</table>
+<A href=/editor/>Home</A> |  <a href=?action=feedback>Contact Us</a> | <A href=?action=privacy>Privacy Policy</a>  | <A href=https://www.lunapic.com/support/ target=_NEW>Support</a> 
+| <i>Copyright 2024 <a href=https://lunapic.com/>LunaPic.com</a>  </i>
+<BR><BR>( We've recently upgraded!  Please <A href=?action=feedback>let us know if you find any new bugs</a>! )
+</form>
+</div>
+</body>
